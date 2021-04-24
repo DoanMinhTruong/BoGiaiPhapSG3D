@@ -1,0 +1,127 @@
+@charset "utf-8";
+	.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -610px;
+	top : -90px;
+	width : 2393px;
+	height : 1345px;
+}
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+	
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 398px;
+	top : 276px;
+	width : 499px;
+	height : 499px;
+	animation: smart 0.75s ease-in;
+}
+
+
+
+@keyframes ajonomoto {
+	from{
+		left : 538px;
+		top : 415px;
+	}
+	to{
+		left : 538px;
+		top : 176px;
+	}
+	
+}
+.ajonomoto
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 538px;
+	top : 176px;
+	width : 558px;
+	height : 243px;
+	animation: ajonomoto 0.5s ease-in;
+
+}
+
+@keyframes rangdong {
+	from{
+		left : 538px;
+		top : 410px;
+	}
+	to{
+		left : 753px;
+		top : 408px;
+	}
+	
+}
+.rangdong
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 753px;
+	top : 408px;
+	width : 265px;
+	height : 397px;
+	animation: rangdong 0.5s ease-in;
+
+}
+
+@keyframes arico {
+	from{
+		left : 238px;
+		top: 418px;
+	}
+	to{
+		left : 238px;
+		top : 641px;
+	}
+	
+}
+.arico
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 238px;
+	top : 641px;
+	width : 546px;
+	height : 243px;
+	animation: arico 0.5s ease-in;
+
+}
+@keyframes savi {
+	from{
+		left : 490px;
+		top : 228px;
+	}
+	to{
+		left : 280px;
+		top : 228px;
+	}
+	
+}
+.savi
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 280px;
+	top : 228px;
+	width : 287px;
+	height : 430px;
+	animation: savi 0.5s ease-in;
+}

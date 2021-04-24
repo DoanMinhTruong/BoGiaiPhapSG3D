@@ -1,0 +1,126 @@
+@charset "utf-8";
+	.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -871px;
+	top : -154px;
+	width : 2399px;
+	height : 1200px;
+}
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 398px;
+	top : 259px;
+	width : 499px;
+	height : 499px;
+	animation: smart 0.75s ease-in;
+}
+
+
+@keyframes nharongmove {
+	from{
+		left: 535px;
+		top : 391px;
+	}
+	to{
+		left : 755px;
+		top : 391px;
+	}
+}
+.nharong
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 755px;
+	top : 391px;
+	width : 271px;
+	height : 393px;
+	animation: nharongmove 0.5s ease-in;
+}
+
+
+
+@keyframes baotanglichsumove {
+	from{
+		left: 477px;
+		top : 215px;
+	}
+	to{
+		left : 260px;
+		top : 215px;
+	}
+}
+.baotanglichsu
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 260px;
+	top : 215px;
+	width : 304px;
+	height : 420px;
+	animation: baotanglichsumove 0.5s ease-in;
+}
+
+
+
+@keyframes baotangtpmove {
+	from{
+		left: 204px;
+		top : 390px;
+	}
+	to{
+		left : 204px;
+		top : 608px;
+	}
+}
+.baotangtp
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 204px;
+	top : 608px;
+	width : 577px;
+	height : 243px;
+	animation: baotangtpmove 0.5s ease-in;
+
+}
+
+
+
+@keyframes phununambomove {
+	from{
+		left: 540px;
+		top : 390px;
+	}
+	to{
+		left : 540px;
+		top : 172px;
+	}
+}
+.phununambo
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 540px;
+	top : 172px;
+	width : 534px;
+	height : 243px;
+	animation: phununambomove 0.5s ease-in;
+}

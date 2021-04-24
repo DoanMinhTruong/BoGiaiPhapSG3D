@@ -1,0 +1,371 @@
+@charset "utf-8";
+.background
+{
+	background-image : url(background.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	z-index: -100;
+	left : -1591px;
+	top : -529px;
+	width : 3877px;
+	height : 1939px;
+}
+.image7
+{
+	background-image : url(image7.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 378px;
+	top : 246px;
+	width : 133px;
+	height : 132px;
+	cursor: pointer;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 762px;
+	top : 246px;
+	width : 133px;
+	height : 132px;
+	cursor: pointer;
+
+}
+.factory3d_1_
+{
+	background-image : url(factory3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 48px;
+	top : 439px;
+	width : 322px;
+	height : 133px;
+}
+.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 300px;
+	top : 438px;
+	width : 133px;
+	height : 133px;
+	cursor: pointer;
+}
+.muesum3d
+{
+	background-image : url(muesum3d.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 147px;
+	top : 246px;
+	width : 300px;
+	height : 133px;
+}
+.center
+{
+	background-image : url(center.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1279px;
+	height : 962px;
+}
+.facility3d_1_
+{
+	background-image : url(facility3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 147px;
+	top : 632px;
+	width : 301px;
+	height : 133px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 570px;
+	top : 161px;
+	width : 133px;
+	height : 133px;
+	cursor: pointer;
+
+}
+.tourism3d_1_
+{
+	background-image : url(tourism3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 832px;
+	top : 246px;
+	width : 301px;
+	height : 133px;
+}
+.heritage3d_1_
+{
+	background-image : url(heritage3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 831px;
+	top : 632px;
+	width : 302px;
+	height : 133px;
+}
+.realestate3d_1_
+{
+	background-image : url(realestate3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 453px;
+	top : 803px;
+	width : 368px;
+	height : 132px;
+}
+.zone3d_1_
+{
+	background-image : url(zone3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 909px;
+	top : 439px;
+	width : 322px;
+	height : 133px;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 366px;
+	top : 632px;
+	width : 133px;
+	height : 133px;
+	cursor: pointer;
+
+}
+.image6
+{
+	background-image : url(image6.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 569px;
+	top : 718px;
+	width : 133px;
+	height : 133px;
+	cursor: pointer;
+
+}
+.showroom3d_1_
+{
+	background-image : url(showroom3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 453px;
+	top : 83px;
+	width : 368px;
+	height : 133px;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 775px;
+	top : 632px;
+	width : 133px;
+	height : 132px;
+	cursor: pointer;
+
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 839px;
+	top : 438px;
+	width : 133px;
+	height : 133px;
+	cursor: pointer;
+
+}
+/* Decorate zoom-out */
+@keyframes ani-cont {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+
+.cont{
+	animation: ani-cont 2s ease-in-out;
+}
+@keyframes ani-cont {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/* for  */
+@keyframes aimage {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		top : 246px;
+		left : 762px;
+		opacity: 1;
+	}
+}
+.image{
+	animation: aimage 1s ease-in-out;
+}
+
+@keyframes aimage1 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 570px;
+		top : 161px;
+		opacity: 1;
+	}
+}
+.image1{
+	animation: aimage1 1s ease-in-out;
+}
+
+@keyframes aimage2 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 839px;
+		top : 438px;
+		opacity: 1;
+	}
+}
+.image2{
+	animation: aimage2 1s ease-in-out;
+}
+
+@keyframes aimage3 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 775px;
+	top : 632px;
+	opacity: 1;
+	}
+}
+.image3{
+	animation: aimage3 1s ease-in-out;
+}
+
+@keyframes aimage4 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 366px;
+	top : 632px;
+	opacity: 1;
+	}
+}
+.image4{
+	animation: aimage4 1s ease-in-out;
+}
+
+@keyframes aimage5 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 300px;
+	top : 438px;
+	opacity: 1;
+	}
+}
+.image5{
+	animation: aimage5 1s ease-in-out;
+}
+
+@keyframes aimage6 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 569px;
+	top : 718px;
+	opacity: 1;
+	}
+}
+.image6{
+	animation: aimage6 1s ease-in-out;
+}
+
+@keyframes aimage7 {
+	from{
+		top: 440px;
+		left: 570px;
+		opacity: 0;
+	}
+	to{
+		left : 378px;
+	top : 246px;
+	opacity: 1;
+	}
+}
+.image7{
+	animation: aimage7 1s ease-in-out;
+}
+/* end for */
+/* Show frame */
+#smartshowroom, #facility, #tourism, #factory, #heritage, #museum, #realestate , #zone{
+	top : 0 ;
+	left: 0;
+	z-index: 100;
+	position: absolute;
+	opacity: 0;
+	/* height: 600px;
+	width: 600px; */
+}
+
+#pre-button{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	height: 80px;
+	z-index: 200;
+	opacity: 0;
+	background-image: url(prev.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}

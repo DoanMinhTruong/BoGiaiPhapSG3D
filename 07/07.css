@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+@keyframes verosa {
+	from{
+		left : 538px;
+		top : 427px;
+	}
+	to{
+		left : 538px;
+		top : 227px;
+	}
+}
+.verosa
+{
+	background-image : url(verosa.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 538px;
+	top : 227px;
+	width : 580px;
+	height : 243px;
+	animation: verosa 0.5s ease-in;
+}
+
+
+
+@keyframes scs {
+	from{
+		left : 538px;
+		top : 427px;
+	}
+	to{
+		left : 730px;
+		top : 484px;
+	}
+}
+.scs
+{
+	background-image : url(scs.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 730px;
+	top : 484px;
+	width : 325px;
+	height : 315px;
+	animation: scs 0.5s ease-in;
+
+}
+
+
+@keyframes saigon {
+	from{
+		left : 435px;
+		top : 290px;
+	}
+	to{
+		left : 236px;
+		top : 344px;
+	}
+}
+.saigon
+{
+	background-image : url(saigon.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 236px;
+	top : 344px;
+	width : 350px;
+	height : 383px;
+	animation: saigon 0.5s ease-in;
+
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -1961px;
+	top : -599px;
+	width : 4388px;
+	height : 2194px;
+}
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 422px;
+	top : 327px;
+	width : 451px;
+	height : 427px;
+	animation: smart 0.75s ease-in;
+}

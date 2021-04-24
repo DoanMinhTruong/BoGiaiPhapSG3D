@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 421px;
+	top : 322px;
+	width : 451px;
+	height : 427px;
+	animation: smart 0.75s ease-in;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -637px;
+	top : -212px;
+	width : 2269px;
+	height : 1276px;
+}
+
+
+@keyframes SmartFactory {
+	from{
+		left : 435px;
+		top :280px;
+	}
+	to{
+		left : 237px;
+		top : 341px;
+	}
+}
+.SmartFactory
+{
+	background-image : url(SmartFactory.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 237px;
+	top : 341px;
+	width : 348px;
+	height : 381px;
+	animation: SmartFactory 0.5s ease-in;
+}
+
+
+@keyframes Long_Thanh {
+	from{
+		left : 537px;
+		top : 415px;
+	}
+	to{
+		left : 729px;
+		top : 479px;
+	}
+}
+.Long_Thanh
+{
+	background-image : url(Long_Thanh.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 729px;
+	top : 479px;
+	width : 327px;
+	height : 315px;
+	animation: Long_Thanh 0.5s ease-in;
+}
+
+
+
+
+
+
+@keyframes longhau {
+	from{
+		left : 537px;
+		top : 415px;
+	}
+	to{
+		left : 537px;
+		top : 222px;
+	}
+}
+.longhau
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 537px;
+	top : 222px;
+	width : 552px;
+	height : 243px;
+	animation: longhau 0.5s ease-in;
+}

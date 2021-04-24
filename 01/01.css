@@ -1,0 +1,163 @@
+@charset "utf-8";
+.dongtam
+{
+	background-image : url(dongtam2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 731px;
+	top : 293px;
+	width : 475px;
+	height : 312px;
+	animation: dongtammove 0.5s ease-in;
+
+}
+.back
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -366px;
+	top : -11px;
+	width : 1884px;
+	height : 1070px;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 400px;
+	top : 235px;
+	width : 497px;
+	height : 568px;
+	animation: smart 0.75s ease-in;
+}
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.cozy
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 107px;
+	top : 426px;
+	width : 470px;
+	height : 337px;
+	animation: cozymove 0.5s ease-in;
+
+}
+.furni
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 328px;
+	top : 134px;
+	width : 265px;
+	height : 399px;
+	animation: furnimove 0.5s ease-in;
+}
+.sfhome
+{
+	background-image : url(sfhome2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 696px;
+	top : 517px;
+	width : 286px;
+	height : 375px;
+	animation: sfhomemove 0.5s ease-in;
+
+}
+.azhome
+{
+	background-image : url(azhome2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 534px;
+	top : 168px;
+	width : 548px;
+	height : 243px;
+	animation: azhomemove 0.5s ease-in;
+
+}
+.hoaphat
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 203px;
+	top : 643px;
+	width : 578px;
+	height : 243px;
+	animation: hoaphatmove 0.5s ease-in;
+}
+
+
+
+/*  */
+@keyframes hoaphatmove {
+	from {
+		top: 390px;
+	}
+	to{
+		top: 643px;
+	}
+}
+@keyframes furnimove {
+	from {
+		left: 550px;
+		top: 245px;
+	}
+	to{
+		left: 328px;
+		top: 134px;
+	}
+}
+@keyframes dongtammove {
+	from {
+		left: 534px;
+		top: 400px;
+	}
+	to{
+		left : 731px;
+		top : 293px;
+	}
+}
+
+@keyframes azhomemove {
+	from {
+		left: 534px;
+		top: 400px;
+	}
+	to{
+		left : 534px;
+		top : 168px;
+	}
+}
+@keyframes sfhomemove {
+	from {
+		left: 490px;
+		top: 390px;
+	}
+	to{
+		left : 696px;
+		top : 517px;
+	}
+}
+@keyframes cozymove {
+	from {
+		left: 325px;
+		top: 300px;
+	}
+	to{
+		left : 107px;
+		top : 426px;
+	}
+}

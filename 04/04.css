@@ -1,0 +1,130 @@
+@charset "utf-8";
+	.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -388px;
+	top : -88px;
+	width : 1982px;
+	height : 1123px;
+}
+@keyframes smart {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 398px;
+	top : 274px;
+	width : 499px;
+	height : 499px;
+	animation: smart 0.75s ease-in;
+}
+
+
+
+
+@keyframes kimlien {
+	from{
+		left : 540px;
+		top: 407px;
+	}
+	to{
+		left : 540px;
+		top : 183px;
+	}
+}
+.kimlien
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 540px;
+	top : 183px;
+	width : 530px;
+	height : 243px;
+	animation: kimlien 0.5s ease-in;
+}
+
+
+@keyframes langtuduc {
+	from{
+		left : 237px;
+		top: 407px;
+	}
+	to{
+		left : 237px;
+		top : 624px;
+	}
+}
+.langtuduc
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 237px;
+	top : 624px;
+	width : 543px;
+	height : 243px;
+	animation: langtuduc 0.5s ease-in;
+}
+
+
+
+
+@keyframes tandinh {
+	from{
+		left : 538px;
+		top: 407px;
+	}
+	to{
+		left : 751px;
+		top : 407px;
+	}
+}
+.tandinh
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 751px;
+	top : 407px;
+	width : 265px;
+	height : 398px;
+	animation: tandinh 0.5s ease-in;
+}
+
+
+
+
+@keyframes chualang {
+	from{
+		left : 495px;
+		top : 229px;
+
+	}
+	to{
+		left : 279px;
+		top : 229px;
+	}
+}
+.chualang
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 279px;
+	top : 229px;
+	width : 291px;
+	height : 422px;
+	animation: chualang 0.5s ease-in;
+
+}
